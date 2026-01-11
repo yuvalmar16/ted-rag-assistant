@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  typescript: {
-    // מתעלם משגיאות TS בזמן הבנייה (כדי שהסקריפטים לא יתקעו את ה-Deploy)
+  typescript: 
     ignoreBuildErrors: true,
   },
   eslint: {
-    // מתעלם משגיאות ESLint בזמן הבנייה
     ignoreDuringBuilds: true,
   },
 };
