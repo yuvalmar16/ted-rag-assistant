@@ -64,7 +64,3 @@ npm run dev
 Open http://localhost:3000 with your browser to see the result.
 
 
-☁️ Deployment
-The easiest way to deploy your Next.js app is to use the Vercel Platform.
-
-Check out the Next.js deployment documentation for more details.
